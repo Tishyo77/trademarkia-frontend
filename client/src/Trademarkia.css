@@ -1,0 +1,73 @@
+.trademarks-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.results-amount {
+    width: 100%;
+}
+
+.results-amount p {
+    position: relative;
+    margin-left: 46px;
+    font-size: 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.results-amount hr {
+    width: 95.2%; 
+    height: 2px;
+    background-color: #E7E6E6;
+    border: none;
+}
+
+.search-suggestion {
+    width: 100%;
+    position: relative;
+}
+
+.search-suggestion p {
+    margin-left: 46px;
+    font-size: 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 46px;
+}
+
+.search-button {
+    margin-left: 20px;
+    border: 1px solid #E7760E;
+    border-radius: 10px;
+    background-color: #FEF7F0;
+    padding: 12px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #E7760E;
+    cursor: pointer;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-button,
+.share-button,
+.menu-button {
+    margin-left: 10px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #575757;
+    border: 1px solid #575757;
+    border-radius: 8px;
+    padding: 9px;
+    background-color: white;
+    cursor: pointer;
+}
