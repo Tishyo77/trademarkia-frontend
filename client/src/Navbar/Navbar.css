@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/Gilroy-Light.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 118px;
+    width: 100%;
+    background-color: #F8FAFE;
+    box-shadow: 0 6px 6px 0 #EAF1FF;
+}
+
+.logo {
+    position: absolute;
+    left: 79.05px;
+}
+  
+.logo img {
+    width: 155.37px;
+}
+  
+.search-bar {
+    position: absolute;
+    left: 283.6px;
+    display: flex;
+    align-items: center;
+}
+  
+.search-bar input {
+    padding: 0px 4px 0px 4px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: 454.79px;
+    height: 50px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.search-bar button {
+    width: 124px;
+    height: 50px;
+    padding: 16px 48x 16px 48px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 14.07px;
+    border: none;
+    background-color: #4380EC;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+  
+  .search-bar button:hover {
+    background-color: #357ae8;
+  }
+  
